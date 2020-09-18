@@ -13,7 +13,7 @@ class QuizQuestion extends Component {
         </section>
         <section className="buttons">
           <ul>
-          {this.props.quiz_35question.answer_options.map((val, key) => <QuizQuestionButton clickHandler={this.handleClick.bind(this)} key={key} button_text={val}/>)}
+          {this.props.quiz_question.answer_options.map((val, key) => <QuizQuestionButton clickHandler={this.handleClick.bind(this)} key={key} button_text={val}/>)}
           </ul>
         </section>
       </main>
